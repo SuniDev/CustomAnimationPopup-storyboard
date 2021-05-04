@@ -1,7 +1,13 @@
 # SNPopup
 Base Sample 3. Custom Animation Popup 만들기
+<br><br>
 
-## 1. 사용 예제 (PopupType = .fadeInOut)
+
+https://user-images.githubusercontent.com/56523702/116968316-3a49ac00-acef-11eb-9f7a-566fafd2cc9a.MP4
+
+
+<br><br>
+## 1. 사용 예제 Fade In Out (PopupType = .fadeInOut)
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -10,9 +16,9 @@ Base Sample 3. Custom Animation Popup 만들기
     popVC.showAnim(vc: self, type: .fadeInOut, parentAddView: self.view) { }
 ```
 
-## 2. 사용 예제 (PopupType = .move)
+## 2. 사용 예제 Move (PopupType = .move)
 
-PopupPosition = .top<br>
+Top Push Popup (PopupPosition = .top)<br>
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -21,7 +27,7 @@ PopupPosition = .top<br>
     popVC.showAnim(vc: self, type: .move, position: .top, parentAddView: self.view) { }
 ```
 <br>
-PopupPosition = .bottom<br>
+Bottom Push Popup (PopupPosition = .bottom)<br>
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -30,7 +36,7 @@ PopupPosition = .bottom<br>
     popVC.showAnim(vc: self, type: .move, position: .bottom, parentAddView: self.view) { }
 ```
 <br>
-PopupPosition = .left<br>
+Left Push Popup (PopupPosition = .left)<br>
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -39,7 +45,7 @@ PopupPosition = .left<br>
     popVC.showAnim(vc: self, type: .move, position: .left, parentAddView: self.view) { }
 ```
 <br>
-PopupPosition = .right<br>
+Right Push Popup (PopupPosition = .right)<br>
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -48,7 +54,7 @@ PopupPosition = .right<br>
     popVC.showAnim(vc: self, type: .move, position: .right, parentAddView: self.view) { }
 ```
 <br>
-PopupPosition = .center<br>
+Center Push Popup (PopupPosition = .center)<br>
 
 ```swift
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
