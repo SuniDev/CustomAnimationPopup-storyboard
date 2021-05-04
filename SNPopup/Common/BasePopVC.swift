@@ -74,6 +74,9 @@ extension BasePopVC {
      - Note: 팝업 화면을 애니메이션을 넣어서 보이는 함수
      */
     func showAnim(vc: UIViewController? = UIApplication.shared.keyWindow?.visibleViewController, type: PopupType = .fadeInOut, position: PopupPosition = .none, parentAddView: UIView?, _ completion: @escaping ()->()) {
+        
+        print("🍏🍏🍏🍏🍏 showAnim \n PopupType: \(type) \n PopupPosition: \(position) \n🍏🍏🍏🍏🍏")
+        
         guard let currentVC = vc else {
             completion()
             return
