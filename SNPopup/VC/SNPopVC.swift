@@ -2,7 +2,7 @@
 //  SNPopVC.swift
 //  SNPopup
 //
-//  Created by KBIZ on 2021/04/13.
+//  Created by suni on 2021/04/13.
 //
 
 import UIKit

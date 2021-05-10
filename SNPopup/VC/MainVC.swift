@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SNPopup
 //
-//  Created by KBIZ on 2021/04/12.
+//  Created by suni on 2021/04/12.
 //
 
 import UIKit
