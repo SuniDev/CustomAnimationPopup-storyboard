@@ -1,5 +1,5 @@
-# Custom Animation Popup with storyboard
-Custom Animation Popup 만들기
+# Custom Animation Popup (with. Storyboard)
+Storyboard intreface 기반 Custom Animation Popup 만들기
 <br><br>
 
 
@@ -65,5 +65,5 @@ Center Push Popup (PopupPosition = .center)<br>
 <br><br>
 
 ## 블로그
-[[iOS/Swift] Custom Animation Popup 만들기](https://sunidev.tistory.com/10)
+[[iOS/Swift] Custom Animation Popup 만들기 (with. Storyboard)](https://sunidev.tistory.com/10)
 
