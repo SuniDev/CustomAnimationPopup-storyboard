@@ -1,5 +1,5 @@
 # Custom Animation Popup (with. Storyboard)
-Storyboard intreface 기반 Custom Animation Popup 만들기
+Storyboard interface 기반 Custom Animation Popup 만들기
 <br><br>
 
 
